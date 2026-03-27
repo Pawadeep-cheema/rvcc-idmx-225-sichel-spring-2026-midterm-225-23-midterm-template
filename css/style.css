@@ -46,3 +46,15 @@ h2 {
 #gallery figure {
     text-align: center;
 }
+
+/* Reviews section */
+#reviews {
+    border: 3px solid rgb(28, 119, 52);
+    padding: 20px;
+    text-align: center;
+}
+#reviews blockquote {
+    font-style: italic;
+    margin: 20px auto;
+    max-width: 600px;
+}
