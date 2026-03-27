@@ -52,6 +52,7 @@ h2 {
     border: 3px solid rgb(28, 119, 52);
     padding: 20px;
     text-align: center;
+    font-color: rgb(10, 133, 10);
 }
 #reviews blockquote {
     font-style: italic;
@@ -64,11 +65,12 @@ h2 {
     figure{
         display: grid;
         align-items: center;
-       /* grid-template-columns: 2fr 1fr;*/
+        grid-template-columns: 2fr 1fr;
     }
     figcaption{
         display: flex;
         flex-direction: center;
+        align-text: center;
         align-items: center;
         font-size: 1.5rem;
         margin-left: 1rem;
