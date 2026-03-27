@@ -1,0 +1,19 @@
+
+h1 {
+    color: red;
+    text-align: center;
+}
+/* Hero section */
+#hero,footer {
+   text-align:center;
+   background-color: white;
+   padding: 10px;
+   border: 2px solid red;
+   margin: 20px;
+}
+#hero img {
+    width: ;100%;
+    height: auto;
+    border radius: 50%;
+    text-align: center;
+}
