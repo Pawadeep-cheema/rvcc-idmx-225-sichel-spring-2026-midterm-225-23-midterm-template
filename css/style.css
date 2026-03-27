@@ -33,3 +33,16 @@ h2 {
     border radius: 50%;
     img-align: center;
 }
+
+/*gallery section */
+#gallery {
+    border: 3px solid rgb(28, 119, 52);
+    margin-bottom: 2rem;
+}
+#gallery img {
+    margin-right: 2px;
+    margin-left: 2px;
+}
+#gallery figure {
+    text-align: center;
+}
