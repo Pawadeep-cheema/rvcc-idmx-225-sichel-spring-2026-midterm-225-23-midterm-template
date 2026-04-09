@@ -1,0 +1,104 @@
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'times new roman', times, serif;
+    color: #782929;
+    text-align:center;
+}
+h1 {
+    color: rgb(164, 29, 29);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50pt;
+}
+
+h2 {
+    color: rgb(164, 29, 29);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:25pt;
+}
+h4 {
+    color: rgb(164, 29, 29);
+    text-align: center;
+    font-family: 'brush script mt', cursive;
+    font-size: 20pt;
+}
+
+/* Hero section */
+#hero,footer {
+   text-align:center;
+   background-color: white;
+   padding: 10px;
+   border: 2px solid rgb(28, 119, 52);
+   margin: 20px;
+   font-size: 15pt;
+}
+#hero img {
+    width: 100%;
+    height: auto;
+    border radius: 50%;
+    img-align: center;
+}
+
+/*gallery section */
+#gallery {
+    border: 3px solid rgb(28, 119, 52);
+    margin-bottom: 2rem;
+}
+#gallery img {
+    margin-right: 2px;
+    margin-left: 2px;
+}
+#gallery figure {
+    text-align: center;
+}
+
+/* Reviews section */
+#reviews {
+    border: 3px solid rgb(28, 119, 52);
+    padding: 20px;
+    text-align: center;
+    font-color: rgb(10, 133, 10);
+}
+#reviews blockquote {
+    font-style: italic;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+/* tablet size */
+@media screen and (min-width: 60em) {
+    figure{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 2fr 1fr;
+    }
+    figcaption{
+        display: flex;
+        flex-direction: center;
+        align-items: center;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+    figure img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* large screen size */
+@media screen and (min-width: 100em) {
+    #gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    hr{
+        display: none;
+    }
+    #gallery h2{
+        grid-column: 1/-1;
+    }
+    figure{
+        display: block;
+    }
+}
